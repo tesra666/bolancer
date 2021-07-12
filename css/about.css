@@ -1,0 +1,86 @@
+.pro-main .the-header {
+  background: #fff;
+  color: #222;
+  height: 96px;
+}
+.header-content .nav-item {
+  color: #222
+}
+.header-content .sub-nav {
+  background: #eee;
+}
+.header-content .sub-nav a {
+  color: #222;
+}
+.header-content .nav-item .sub-nav .disabled:hover,
+.header-content .sub-nav .disabled {
+  color: #adb1b4;
+}
+
+.banner {
+  position: relative;
+  height: 800px;
+}
+.banner .bg-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.banner .bg-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section {
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  color: #222222;
+  line-height: 1;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.section .title {
+  font-size: 48px;
+  font-weight: 400;
+}
+.section .sub-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 23px;
+  margin-bottom: 26px;
+  text-transform: uppercase;
+}
+
+.profile p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  color: #222222;
+  line-height: 36px;
+  padding: 0 20px;
+}
+.info {
+  padding-bottom: 80px;
+}
+.info .info-item {
+  width: 864px;
+  margin: 80px auto 30px;
+  text-align: left;
+}
+.info .info-item .tit {
+  font-size: 30px;
+  font-weight: bold;
+  color: #222222;
+  margin-bottom: 20px;
+}
+.info .info-item .des {
+  font-size: 16px;
+  font-weight: 400;
+  color: #222222;
+  line-height: 36px;
+}
+.info .info-item img {
+  margin-top: 30px;
+}

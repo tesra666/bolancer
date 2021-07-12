@@ -1,0 +1,141 @@
+.pro-main .the-header {
+  background: #fff;
+  color: #222;
+  height: 96px;
+}
+.header-content .nav-item {
+  color: #222
+}
+.header-content .sub-nav {
+  background: #eee;
+}
+.header-content .sub-nav a {
+  color: #222;
+}
+.header-content .nav-item .sub-nav .disabled:hover,
+.header-content .sub-nav .disabled {
+  color: #adb1b4;
+}
+.banner {
+  position: relative;
+  height: 800px;
+  min-width: 1200px;
+}
+.banner .bg-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.banner .bg-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner .info-wrap {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  color: #363636;
+  padding-top: 168px;
+}
+.banner .title1 {
+  width: 16em;
+  font-size: 48px;
+  font-weight: bold;
+  color: #363636;
+  text-transform: uppercase;
+}
+.banner .title2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #363636;
+}
+.banner .des {
+  font-size: 18px;
+  width: 24em;
+  margin-top: 10px;
+}
+.banner .bar {
+  width: 117px;
+  height: 4px;
+  background: #c6a15b;
+  margin-top: 44px;
+  margin-bottom: 62px;
+}
+.banner .des2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #363636;
+  line-height: 36px;
+}
+
+.project {
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  color: #222222;
+  line-height: 1;
+}
+.project .title {
+  font-size: 48px;
+  font-weight: 400;
+}
+.project .sub-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 23px;
+  margin-bottom: 83px;
+}
+.project-params {
+  padding-top: 76px;
+}
+.project-structure {
+  padding-top: 70px;
+  padding-bottom: 135px;
+}
+
+.project-params .param-panel {
+  background: #d8d8d832;
+  display: flex;
+  margin-top: 38px;
+}
+.project-params .tit {
+  flex: 0 0 202px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #d8d8d877;
+}
+.project-params .tit span {
+  width: 2em;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #22252e;
+  margin-top: 5px;
+}
+.project-params .content {
+  flex: 1;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: #323333;
+  line-height: 36px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.project-params .content .line {
+  display: flex;
+}
+.project-params .content .line .line-tit {
+  flex: 0 0 350px;
+  text-indent: 68px;
+}
+.project-params .content .line .line-des {
+  flex: 1;
+}
+.project-params .content .line .line-desc {
+  text-indent: 68px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolancer-社区校园</title>
+  <meta name="keywords" content="bolancer">
+  <meta name="description" content="bolancer">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/favicon.ico"/>
+  <link rel="apple-touch-startup-image" href="/favicon.ico"/>
+  <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/header.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
+  <link rel="stylesheet" href="/css/scene.css" />
+</head>
+<body>
+  <div class="main pro-main" id="pro-app">
+    <!-- 顶部导航栏 -->
+    <nav class="the-header">
+      <div class="header-content">
+        <a href="index.html"><img src="/img/logo@2x-2.png" class="logo" alt="" width="114"></a>
+        <a class="nav-item" href="index.html">首页</a>
+        <div class="nav-item">
+          解决方案
+          <div class="sub-nav">
+            <a href="proj-hospital.html">智慧医院</a>
+            <a class="disabled" href="javascript:void(0);">智慧工程</a>
+            <a class="disabled" href="javascript:void(0);">智慧城市</a>
+            <a class="disabled" href="javascript:void(0);">智慧社区</a>
+            <a class="disabled" href="javascript:void(0);">智慧工厂</a>
+          </div>
+        </div>
+        <div class="nav-item active">
+          应用场景
+          <div class="sub-nav">
+            <a href="scene-wild.html">野外工程</a>
+            <a href="scene-city.html">市容交巡</a>
+            <a href="scene-hospital.html">医院场景</a>
+            <a class="active" href="scene-school.html">社区校园</a>
+            <a href="scene-factory.html">园区工厂</a>
+            <a href="scene-mall.html">商城超市</a>
+            <a href="scene-airport.html">机场车站</a>
+            <a href="scene-scenic.html">景区导巡</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          产品信息
+          <div class="sub-nav">
+            <a href="prod-go.html">工程巡配</a>
+            <a href="prod-service.html">通用服务</a>
+            <a href="prod-delivery.html">通用配送</a>
+            <a href="prod-chassis.html">通用底盘</a>
+          </div>
+        </div>
+        <a class="nav-item" href="about.html">关于我们</a>
+      </div>
+    </nav>
+  
+    <section class="banner">
+      <div class="bg-wrap">
+        <img src="/img/scene/school-banner.png" alt="">
+      </div>
+    </section>
+    
+    <section class="section patent">
+      <div class="title">
+        社区校园
+      </div>
+      <p class="center">智慧小区常规巡逻巡防、新能源电动车充电过热监测、车位占用、无接触配送到门服务。</p>
+      <img src="/img/scene/school-1.png" alt="">
+      <p class="center">院校安全巡视、传达室物品转送；校园点到点外送，引领、咨询、宣传。</p>
+      <img src="/img/scene/school-2.png" alt="">
+    </section>
+
+    <footer class="the-footer">
+      <div class="ft-content">
+        <div class="left">
+          <img src="/img/logo@2x.png" alt="" width="118">
+          <div class="wrap">
+            <div class="item">
+              <img class="ico" src="/img/footer/ico-phone.png" alt="" width="17" height="21">
+              电话：023-67162402
+            </div>
+            <div class="item">
+              <img class="ico" src="/img/footer/icon-mail.png" alt="" width="20" height="15">
+              邮箱：service@bolancer.com
+            </div>
+            <a class="item" href="https://shop33915197.taobao.com/?spm=a1z10.1-c.0.0.27797a7fvzJ3f1" target="_blank">
+              <img class="ico" src="/img/footer/ico-cart.png" alt="" width="18" height="18">
+              在线商城
+            </a>
+          </div>
+        </div>
+        <!-- <div class="subscription">
+          <div class="title">订阅我们</div>
+          <div class="sub-bar">
+            <input class="sub-input" type="text" placeholder="请输入您的邮箱地址">
+            <div class="btn-sub">提交</div>
+          </div>
+        </div> -->
+      </div>
+    </footer>
+    <div
+      class="to-top"
+      :style="{ display: scrollTop > 200 ? 'block' : 'none' }"
+      @click="backToTop">
+    </div>
+  </div>
+  <script src="/lib/vue.min.js"></script>
+  <script src="/js/utils.js"></script>
+  <script src="/js/product.js"></script>
+</body>
+</html>

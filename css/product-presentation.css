@@ -1,0 +1,156 @@
+/* .heder-box{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/robot-banner.png) no-repeat;
+	background-position: center;
+	object-fit: contain;
+	background-size: 100% 100%;
+} */
+
+.banner02,
+.banner02 img {
+	width: 100%;
+}
+
+
+.company-advantage {
+	margin: 5vw 0;
+}
+
+.company-advantage .list img {
+	width: 100%;
+}
+
+
+
+.product-presentation ul li {
+	margin-top: 3vw;
+	overflow: hidden;
+}
+
+.product-presentation ul li div,
+.product-presentation ul li img {
+	float: left;
+}
+
+.product-presentation ul li img {
+	width: 60.4%;
+	height: 24vw;
+}
+
+.right-img {
+	margin-left: 2.3vw;
+}
+
+.product-list {
+	width: 36%;
+}
+
+.product-list h3 {
+	font-size: 1.8vw;
+	color: #373737;
+}
+
+.product-list p {
+	font-size: 1vw;
+	color: #373737;
+	line-height: 1.9vw;
+}
+
+.robot-vs {
+	margin: 6vw 0;
+}
+
+.vs-tittle {
+	background-color: #282828;
+	width: 100%;
+	font-size: 2vw;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	height: 6vw;
+	line-height: 6vw;
+}
+
+.vs-table {
+	width: 100%;
+	background-color: #E4E4E4;
+}
+
+.vs-table tr {
+	font-size: 1vw;
+	font-weight: bold;
+	height: 3.2vw;
+}
+
+.vs-table tr th {
+	text-align: left;
+	color: #282828;
+	border-bottom: 1px solid #e0e0e0;
+	height: 4vw;
+}
+
+.vs-table tr td {
+	color: #333333;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.vs-table tr td:last-child {
+	font-weight: normal;
+	color: #373737;
+}
+
+.vs-table tr td:first-child,
+.vs-table tr th:first-child {
+	padding-left: 2vw;
+	width: 14vw;
+}
+
+.application-scenarios h1 {
+	font-size: 2vw;
+	color: #373737;
+	text-align: center;
+}
+
+.scenarios-list ul {
+	overflow: hidden;
+}
+
+.scenarios-list ul li {
+	float: left;
+	width: 32.3%;
+}
+
+.scenarios-list ul li:first-child,
+.scenarios-list ul li:nth-child(2) {
+	width: 49%;
+}
+
+.scenarios-list ul li:last-child,
+.scenarios-list ul li:nth-child(4) {
+	margin-left: 1vw;
+}
+
+.scenarios-list ul li:nth-child(2) {
+	margin-left: 1.2vw;
+}
+
+.scenarios-list ul li div {
+	height: 23vw;
+}
+
+.scenarios-list ul li div p {
+	position: relative;
+	font-size: 1.8vw;
+	color: #fff;
+	top: -7vw;
+	left: 1.5vw;
+}
+
+.scenarios-list ul li img {
+	width: 100%;
+}
+
+.scenarios-list {
+	margin-bottom: 5vw;
+}

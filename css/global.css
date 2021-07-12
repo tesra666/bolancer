@@ -1,0 +1,55 @@
+
+body,div,ul,li,ol,dt,dd,p,a,img,pre,code,h1,h2,h3,h4,h5,h6,input,header,footer,section,textarea,nav,menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+body {
+  line-height: 1.5;
+  /* font-family: PingFang,PingFang SC,Hiragino Sans GB,Helvetica Neue,Arial,sans-serif,-apple-system,; */
+  /* font-family: PingFang, PingFang SC, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: Microsoft YaHei;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+*,
+*::before,
+*::after {
+  outline: none;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100vh;
+}
+
+[v-cloak] {
+  display: none !important;
+}
+.main {
+  min-width: 1200px;
+}
+.vx-slideInUp {
+  opacity: 0;
+  animation-name: slideInUp2;
+  animation-fill-mode: both;
+  -webkit-animation-name: slideInUp2;
+  -webkit-animation-fill-mode: both;
+}
+@keyframes slideInUp2 {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

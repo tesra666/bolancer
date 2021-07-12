@@ -1,0 +1,96 @@
+/* .heder-box{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/banner05.png) no-repeat;
+	background-position: center;
+	object-fit: contain;
+	background-size: 100% 100%;
+} */
+.company-introduction{
+	padding: 0 14vw;
+	margin-bottom: 6vw;
+}
+.company-text {
+	width: 72vw;
+	font-size: 1.2vw;
+}
+/* .company-introduction h1{
+	font-size: 3vw;
+	color: #333333;
+	text-align: center;
+	margin: 5vw 0;
+} */
+.company-introduction p{
+	line-height: 2.6vw;
+	color: #010101;
+}
+
+.introduction-list{
+	padding: 0 14vw;
+	margin-bottom: 6vw;
+}
+.introduction-list ul{
+	width: 72vw;
+	margin: 0;
+	padding: 0;
+}
+.introduction-list ul li{
+	list-style: none;
+	overflow: hidden;
+}
+.introduction-list ul li img{
+	width: 48.5%;
+	float: left;
+}
+.introduction-list ul li .list-text{
+	width: 42%;
+	float: left;
+	padding: 2.3vw 2vw;
+}
+.list-text p{
+	font-size: 1vw;
+	color: #666666;
+	line-height: 1.8vw;
+}
+.list-text h3{
+	color: #333333;
+	font-size: 1.6vw;
+}
+.company-advantage{
+	padding: 0 14vw;
+	margin-bottom: 6vw;
+}
+.company-advantage .list{
+	width: 72vw;
+}
+/* .company-advantage .list h1{
+	font-size: 3vw;
+	text-align: center;
+	margin: 5vw 0;
+	color: #333333;
+} */
+.company-advantage .list ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.company-advantage .list li{
+	float: left;
+	width: 32.5%;
+	margin-left: 0.5vw;
+	color: #333333;
+	font-size: 1vw;
+	text-align: center;
+}
+.company-advantage .list li:first-child{
+	margin-left: 0;
+}
+.company-advantage .list li p{
+	padding: 0 1vw;
+	line-height: 1.6vw;
+	font-size: 1vw;
+}
+.company-advantage .list li img{
+	width: 70%;
+}
